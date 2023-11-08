@@ -4,8 +4,7 @@ const salaPython = [7, 3.5, 8, 9.5];
 
 function calculaMedia(notaDaSala) {
     const somaDasNotas = notaDaSala.reduce((acumulador, nota) => {
-        return acumulador + nota
-    }, 0)   
+        acumulador + nota}, 0)   
     
     const media = somaDasNotas / notaDaSala.length;
 
