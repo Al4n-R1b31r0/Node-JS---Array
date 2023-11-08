@@ -1,4 +1,4 @@
-const notas = [7, 7, 8, 9];
+const notas = [6, 7, 8, 9];
 
 const novasNotas =  [...notas]
 novasNotas.push(10)
